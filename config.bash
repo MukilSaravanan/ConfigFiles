@@ -8,4 +8,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Append custom alias in ~/.bashrc
-# echo .bashrc_append >> ~/.bashrc
+echo ./bashrc/.bashrc_append >> ~/.bashrc
+
+# Create ~/.vimrc
+cp ./vimrc/.vimrc_minimal >> ~/.vimrc
