@@ -6,3 +6,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 # Insall Vim Vundle 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+# Append custom alias in ~/.bashrc
+# echo .bashrc_append >> ~/.bashrc
