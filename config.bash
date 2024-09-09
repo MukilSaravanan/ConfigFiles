@@ -12,3 +12,9 @@ cat ./bashrc/.bashrc_append >> ~/.bashrc
 
 # Create ~/.vimrc
 cp ./vimrc/.vimrc_minimal ~/.vimrc
+
+# Install applications
+sudo apt-get install terminator
+sudo apt-get install tree
+sudo apt-get install htop
+sudo apt-get install btop
