@@ -18,6 +18,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'https://github.com/mileszs/ack.vim'
+Plug 'tpope/vim-commentary'
+
 call plug#end()
 
 colorscheme gruvbox
